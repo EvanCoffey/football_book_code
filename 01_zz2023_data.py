@@ -1,15 +1,8 @@
-## demonstrate objects
-z = 2
-z / 3
-
-## import packages
-## make sure you installed both packages using pip in the terminal
 import pandas as pd
 import nfl_data_py as nfl
 import os
 
-## Load data from the package
-chap_1_file = "./data/pbp_py_chap_1.csv"
+chap_1_file = "./data/pbp_py_chap_2023.csv"
 
 if os.path.isfile(chap_1_file):
     pbp_py = pd.read_csv(chap_1_file, low_memory=False)
