@@ -4,3 +4,4 @@
 *.csv
 *~
 football_book_code.code-workspace
+.venv
